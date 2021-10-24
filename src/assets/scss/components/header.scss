@@ -1,0 +1,70 @@
+// для каждого компонента нужно импортить переменные, чтобы их использовать
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.header {
+    width: 1440px;
+}
+
+
+
+.header-inner {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F1D3B9;
+    background-color: #B36050;
+    padding: 10px;
+}
+
+.header-nav{
+    background-color: #F6F4EC;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    width: 425px;
+
+    a {
+        font-size: 18px;
+        line-height: 29px;
+        text-transform: capitalize;
+        color: #B4604D;
+        text-decoration: none;
+        width: 25%;
+    }
+
+}
+
+.logo{
+    width: 120px;
+}
+
+.header-profile{
+    width: 435px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+        a {
+            font-size: 14px;
+            line-height: 22px;
+            color: #B45F4D;
+            text-decoration: none;
+        }
+
+    .buy{
+        width: 60px;
+        display:flex ;
+        justify-content: center;
+        align-items:center;
+    }
+    
+}
+
